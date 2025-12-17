@@ -1,27 +1,26 @@
 🛒 E-Commerce Website (MERN Stack)
 
-A full-stack E-Commerce web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js).
-The project includes user authentication, product browsing, cart management, and an admin panel for product management.
+A full-stack E-Commerce web application built using the MERN stack — MongoDB, Express.js, React.js, and Node.js.
+The project supports user authentication, product browsing, cart management, and an admin panel for managing products.
 
 🚀 Features
 
-User Signup & Login with JWT authentication
+User Signup & Login using JWT authentication
 
-Dynamic product listing fetched from backend APIs
+Dynamic product fetching from backend using REST APIs
 
 Add to Cart / Remove from Cart functionality
 
-Admin Panel for adding and removing products
+Admin Panel for adding and deleting products
 
-Image upload for products using Multer
+Product image upload using Multer
 
-Responsive UI with CSS Media Queries
+Responsive UI using CSS Media Queries
 
-Secure password handling using bcrypt
+Global state management using React Context API
 
 🧰 Tech Stack
-
-Frontend:
+Frontend
 
 React.js
 
@@ -31,7 +30,7 @@ React Router
 
 CSS (Media Queries)
 
-Backend:
+Backend
 
 Node.js
 
@@ -41,36 +40,44 @@ RESTful APIs
 
 JWT Authentication
 
-Multer
+Multer (Image Upload)
 
-Database:
+Database
 
 MongoDB Atlas
 
-Deployment:
-
-Frontend: Vercel
-
-Backend: Render / Heroku
-
-⚙️ Project Structure
-/frontend   → React UI
-/backend    → Node.js + Express APIs
-/admin      → Admin Panel for product management
+📁 Project Structure
+E-Commerce-Website/
+│
+├── frontend/        → User-facing React application
+├── admin/           → Admin panel for product management
+├── backend/         → Node.js + Express backend APIs
 
 🔐 Authentication Flow
 
-Users can sign up and log in
+Users can sign up or log in
 
-JWT token is generated on login/signup
+Backend generates a JWT token
 
-Token is stored on client side and sent with protected requests
+Token is stored in browser localStorage
 
-Backend middleware verifies token for secure routes
+Token is sent in request headers for protected routes
+
+Backend middleware verifies the token before allowing access
+
+🧑‍💼 Admin Panel
+
+Add new products with image upload
+
+View all products
+
+Remove products
+
+Changes reflect instantly on the frontend
 
 📦 Installation & Setup
-Clone the repository
-git clone https://github.com/your-username/E-Commerce-Website.git
+Clone Repository
+git clone https://github.com/saijal-02/E-Commerce-Website.git
 
 Backend Setup
 cd backend
@@ -82,30 +89,25 @@ cd frontend
 npm install
 npm start
 
-🧑‍💻 Admin Panel
+Admin Panel Setup
+cd admin
+npm install
+npm start
 
-Add new products with image upload
+📌 Learning Outcomes
 
-View all products
+End-to-end full-stack development using MERN
 
-Delete products
+REST API design and backend integration
 
-Changes reflect instantly on user side
+JWT-based authentication and middleware usage
 
-📌 Learning Outcome
+MongoDB schema design and data handling
 
-This project helped me gain hands-on experience in:
+React state management using Context API
 
-Full-stack MERN development
-
-REST API design
-
-Authentication & authorization
-
-Database modeling with MongoDB
-
-Frontend-backend integration
+Building responsive and scalable web applications
 
 📄 License
 
-This project is open-source and available for learning and educational purposes.
+This project is open-source and created for learning and educational purposes.
