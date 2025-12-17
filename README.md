@@ -48,9 +48,11 @@ MongoDB Atlas
 
 📁 Project Structure
 E-Commerce-Website/
-│
+
 ├── frontend/        → User-facing React application
+
 ├── admin/           → Admin panel for product management
+
 ├── backend/         → Node.js + Express backend APIs
 
 🔐 Authentication Flow
