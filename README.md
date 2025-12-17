@@ -3,8 +3,6 @@
 A **full-stack E-Commerce web application** built using the **MERN stack** — MongoDB, Express.js, React.js, and Node.js.
 The project supports **user authentication, product browsing, cart management**, and an **admin panel** for managing products.
 
----
-
 ## 🚀 Features
 
 * User **Signup & Login** using JWT authentication
@@ -14,8 +12,6 @@ The project supports **user authentication, product browsing, cart management**,
 * **Product image upload** using Multer
 * **Responsive UI** using CSS Media Queries
 * Global state management using **React Context API**
-
----
 
 ## 🧰 Tech Stack
 
